@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    text-align: justify;
+    margin-top: 0;
+}
+p{
+    text-align: justify;
+}
+#container{
+    height: 90vh;
+    padding: 0 6%;
+}
+
+.title{
+    padding-top: 50px;
+}
+
+.featured, .stories{
+    position: relative;
+    line-height: 4rem;
+    width: max-content;
+    border-bottom: solid 3px red;
+}
+
+.section-body{
+    margin-top: -22px;
+    border-top: solid 2px #ccc;
+    padding: 2rem 0;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.post{
+    display: flex;
+    flex: 1 1 auto;
+    border: solid  2px  #ccc;
+    flex-wrap: wrap;
+}
+.post:hover{
+    border: solid  2px  #222;
+
+}
+.featured-post{
+    flex-basis: 47%;
+}
+.stories-post{
+    flex-direction: column;
+    flex-basis: 30%;
+}
+.post-image{
+    min-width: 200px;
+    min-height: 250px;
+    flex: 1;
+    background-image: url("images/IMG_1190.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.post-content{
+    flex: 2;
+    padding: 1.5rem ;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.author{
+
+    display: flex;
+}
+.author-profile{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+}
+.img-1{
+    background-image: url(images/IMG_1189.jpg);
+}
+.img-2{
+    background-image: url(images/IMG_1188.jpg);
+}
+.img-3{
+    background-image: url(images/IMG_1190.jpg);
+}
+.img-4{
+    background-image: url(images/IMG_1191.jpg);
+}
